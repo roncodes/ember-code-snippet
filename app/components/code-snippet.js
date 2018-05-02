@@ -62,6 +62,14 @@ export default Ember.Component.extend({
         return 'emblem';
       case 'ts':
         return 'typescript';
+      case 'sh':
+        return 'bash';
+      case 'php':
+        return 'php';
+      case 'py':
+        return 'python';
+      case 'rb':
+        return 'ruby';
       }
     }
   })
