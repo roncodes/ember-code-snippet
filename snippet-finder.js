@@ -9,7 +9,7 @@ var path = require('path');
 
 function findFiles(srcDir) {
   return new _Promise(function(resolve, reject) {
-    glob(path.join(srcDir, "**/*.+(js|coffee|html|hbs|md|css|sass|scss|less|emblem|sh|php|py|ruby)"), function (err, files) {
+    glob(path.join(srcDir, "**/*.+(js|coffee|html|hbs|md|css|sass|scss|less|emblem|sh|php|py|json|ruby)"), function (err, files) {
       if (err) {
         reject(err);
       } else {

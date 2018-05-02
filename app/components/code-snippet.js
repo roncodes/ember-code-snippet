@@ -70,6 +70,8 @@ export default Ember.Component.extend({
         return 'python';
       case 'rb':
         return 'ruby';
+      case 'json':
+        return 'json';
       }
     }
   })
